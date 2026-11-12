@@ -4,52 +4,28 @@ export const photo = (id) => `https://images.unsplash.com/${id}?w=1200&q=80&auto
 
 export const DEFAULT_ITEMS = [
   {
-    src: 'Project Images/Cafe Website.png',
-    alt: 'Cafe Website',
-    title: 'Cafe Website',
-    subtitle: 'Editorial Coffee House Experience',
-    description: 'A full-stack cafe management system with an admin portal for orders, menu, and reservations',
-    link: 'https://mochaandmiso.web.app/'
+    src: 'Project Images/video-editing-sample.jpg',
+    alt: 'Video editing sample',
+    title: 'Video Editing Sample',
+    subtitle: 'Short-form edit',
+    description: 'A short video edited by me. Footage was not shot by me.',
+    link: 'https://youtube.com/shorts/eWftL8h4qu0'
   },
   {
-    src: 'Project Images/Design Studio.png',
-    alt: 'Design Studio',
-    title: 'Design Studio',
-    subtitle: 'Creative Agency & Brand Identity',
-    description: 'A bold design studio website built to showcase creative services, brand identity, and digital experiences',
-    link: 'https://echo-design-studio-ex.vercel.app/'
+    src: 'Project Images/cinematography-sample-1.jpg',
+    alt: 'Cinematography sample 1',
+    title: 'Cinematography Sample 1',
+    subtitle: 'Shot and edited by me',
+    description: 'Footage shot on my phone and edited by me from start to finish.',
+    link: 'https://youtu.be/q64JxoUFD04'
   },
   {
-    src: 'Project Images/Photographer Portfolio.png',
-    alt: 'Photographer Portfolio',
-    title: 'Photographer Portfolio',
-    subtitle: 'Editorial & Analog Photography',
-    description: 'An analog & editorial photography portfolio showcasing timeless visual stories',
-    link: 'https://julianvance.vercel.app/'
-  },
-  {
-    src: 'Project Images/Portfolio Design.png',
-    alt: 'Portfolio Design',
-    title: 'Portfolio Design',
-    subtitle: 'Minimalist Creative Developer Portfolio',
-    description: 'A sleek, high-performance portfolio crafted with modern typography, fluid interactions, and curated creative work.',
-    link: 'https://echooo.web.app/'
-  },
-  {
-    src: 'Project Images/Portfolio Website.png',
-    alt: 'Portfolio Website',
-    title: 'Portfolio Website',
-    subtitle: 'Personal Developer & Designer Portfolio',
-    description: 'A personal portfolio highlighting full-stack engineering, interactive UI components, and modern web craft.',
-    link: 'https://jishnumondal.vercel.app/'
-  },
-  {
-    src: 'Project Images/Sen Cruzo-Client Portfolio.png',
-    alt: 'Sen Cruzo',
-    title: 'Sen Cruzo',
-    subtitle: 'Luxury Architectural & Client Portfolio',
-    description: 'A bespoke editorial portfolio designed for high-profile client presentation, featuring immersive layouts and architectural visual storytelling.',
-    link: 'https://sencruzo.web.app/'
+    src: 'Project Images/cinematography-sample-2.jpg',
+    alt: 'Cinematography sample 2',
+    title: 'Cinematography Sample 2',
+    subtitle: 'Shot and edited by me',
+    description: 'Footage shot on my phone and edited by me from start to finish.',
+    link: 'https://youtu.be/UlFUW7jYdT0'
   }
 ];
 
