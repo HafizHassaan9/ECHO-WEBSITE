@@ -1010,6 +1010,13 @@ export function initFlexCarousel(container, options = {}) {
 
   const onPointerDown = (e) => {
     if (e.button !== undefined && e.button > 0) return;
+    if (e.pointerType === 'touch') {
+      // Finger touches only drive the carousel inside the central card band;
+      // above and below it the page scrolls normally.
+      const s = settings;
+      const zone = s ? Math.min(0.5, s.cardHeight / 2 + 0.08) : 0.4;
+      if (Math.abs(localPoint(e)[1] - height / 2) > zone * height) return;
+    }
     skipIntro();
     const [x, y] = localPoint(e);
     pointer.down = true;
